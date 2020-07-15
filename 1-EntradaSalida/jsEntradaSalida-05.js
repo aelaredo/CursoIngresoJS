@@ -5,12 +5,12 @@ function mostrar() {
     let nombreIngresado;
     let edadIngresada;
 
-    nombreIngresado = txtIdNombre.value;
-    edadIngresada = txtIdEdad.value;
+    nombreIngresado = document.getElementById("txtIdNombre").value;
+    edadIngresada = document.getElementById("txtIdEdad").value;
 
     console.log(nombreIngresado);
     console.log(edadIngresada);
     alert(
-        "Usted se llama " + nombreIngresado + " y tiene " + edadIngresada + " años."
+        `Usted se llama ${nombreIngresado} y tiene ${edadIngresada} años.`
     );
 }
