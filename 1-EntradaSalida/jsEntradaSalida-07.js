@@ -5,13 +5,19 @@ mostrar el resulto por medio de "ALERT"
 ej.: "la Resta es 750"*/
 
 function sumar() {
+
+
     let numeroUno = parseInt(document.getElementById("txtIdNumeroUno").value);
     let numeroDos = parseInt(document.getElementById("txtIdNumeroDos").value);
 
+    // el unico operador que funciona aritmeticamente y en concatenacion es el mas +
     alert("La suma es " + (numeroUno + numeroDos))
 }
 
 function restar() {
+
+    // en una resta convierte automaticamente los string a number aunque no cambia la vbariable
+    //pero por convencion convertimos todos los numeros de string a number
     let numeroUno = parseInt(document.getElementById("txtIdNumeroUno").value);
     let numeroDos = parseInt(document.getElementById("txtIdNumeroDos").value);
 

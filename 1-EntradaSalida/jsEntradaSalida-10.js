@@ -9,5 +9,5 @@ function mostrarAumento() {
 
     resultado = importe - (importe * 0.25);
 
-    txtIdResultado.value = resultado.toFixed(2);
+    document.getElementById("txtIdResultado").value = resultado.toFixed(2);
 }
