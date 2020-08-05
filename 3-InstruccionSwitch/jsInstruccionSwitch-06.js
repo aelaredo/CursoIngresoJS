@@ -35,6 +35,9 @@ function mostrar() {
         case 6:
             alert("es de madrugada");
             break;
+
+        default:
+            alert("la hora no existe")
     }
 
 }

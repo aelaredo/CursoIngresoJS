@@ -1,6 +1,23 @@
-function mostrar()
-{
-	var destinoIngresado =txtIdDestino.value;
-	alert(destinoIngresado);
+function mostrar() {
+    let destinoIngresado = document.getElementById("txtIdDestino").value;
 
-}//FIN DE LA FUNCIÓN
+    // switch (destinoIngresado) {
+
+    //     case "Cataratas":
+    //     case "Mar del plata":
+    //         alert("CALOR")
+    //         break;
+    //     case "Bariloche":
+    //     case "Ushuaia":
+    //         alert("FRIO");
+    //         break;
+    // }
+
+    if (destinoIngresado == "Bariloche" || destinoIngresado == "Ushuaia") {
+        alert("FRIO");
+    } else {
+        alert("CALOR")
+    }
+
+
+} //FIN DE LA FUNCIÓN
